@@ -1,0 +1,35 @@
+{
+  "name": "asim.unity.geometry.utils",
+  "version": "0.2.3",
+  "displayName": "Asim Unity Geometry Utilities",
+  "description": "Asim Unity Geometry Utilities",
+  "unity": "2020.3",
+  "unityRelease": "26f1",
+  "keywords": [
+    "asim",
+    "unity",
+    "geometry",
+    "utils"
+  ],
+  "type": "library",
+  "samples": [
+    {
+      "displayName": "Geometry Utils",
+      "description": "Example of Geometry Utils in action",
+      "path": "Samples~/Examples"
+    }
+  ],
+  "dependencies": {
+    "asim.unity.helpers": "0.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GDAsim/asim.unity.geometry.utils.git"
+  },
+  "author": "GDAsim <gamedevelopementasim@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GDAsim/asim.unity.geometry.utils/issues"
+  },
+  "homepage": "https://github.com/GDAsim/asim.unity.geometry.utils#readme"
+}

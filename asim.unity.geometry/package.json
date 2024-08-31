@@ -1,0 +1,24 @@
+{
+  "name": "asim.unity.geometry",
+  "version": "0.1.0",
+  "displayName": "Asim Unity Geometry",
+  "description": "Asim Geometry",
+  "unity": "2020.3",
+  "unityRelease": "26f1",
+  "keywords": [
+    "asim",
+    "unity",
+    "geometry"
+  ],
+  "type": "library",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GDAsim/asim.unity.geometry.git"
+  },
+  "author": "GDAsim <gamedevelopementasim@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GDAsim/asim.unity.geometry/issues"
+  },
+  "homepage": "https://github.com/GDAsim/asim.unity.geometry#readme"
+}
