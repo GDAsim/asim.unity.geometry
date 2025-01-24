@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -426,7 +425,7 @@ Transform:
   m_GameObject: {fileID: 1410303328}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.5, y: -8.68, z: 0}
+  m_LocalPosition: {x: -5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -655,7 +654,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1755154643}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70d7f1c7ad526794f8da5a2233b7f520, type: 3}
+  m_Script: {fileID: 11500000, guid: cd20b3dc55c2083479e2f0474667c249, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Text: {fileID: 2075769082}
@@ -663,7 +662,7 @@ MonoBehaviour:
   Point: {fileID: 1410303328}
   EllipseCenter: {fileID: 1738406342}
   EllipseSize: {x: 10, y: 5}
-  DoRotate: 0
+  DoRotate: 1
 --- !u!4 &1755154645
 Transform:
   m_ObjectHideFlags: 0
@@ -749,7 +748,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Point Outside Ellipse
+  m_Text: Point Inside Ellipse
 --- !u!222 &2075769083
 CanvasRenderer:
   m_ObjectHideFlags: 0

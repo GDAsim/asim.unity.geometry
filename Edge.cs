@@ -30,5 +30,12 @@ namespace asim.unity.geometry
 
             return (v0 == other.v0 && v1 == other.v1) || (v0 == other.v1 && v1 == other.v0);
         }
+
+        public override int GetHashCode()
+        {
+            int hash1 = v0.GetHashCode();
+            int hash2 = v1.GetHashCode();
+            return hash1 ^ hash2;
+        }
     }
 }

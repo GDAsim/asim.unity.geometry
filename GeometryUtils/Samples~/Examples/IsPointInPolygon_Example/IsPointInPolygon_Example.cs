@@ -1,8 +1,8 @@
-using asim.unity.helpers;
-using asim.unity.utils.geometry;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using asim.unity.geometry;
+using asim.unity.helpers;
 
 [ExecuteInEditMode]
 public class IsPointInPolygon_Example : MonoBehaviour
@@ -12,13 +12,13 @@ public class IsPointInPolygon_Example : MonoBehaviour
 
     [SerializeField] Camera cam;
 
-    [SerializeField] GameObject Point;
     [SerializeField] GameObject Polygon;
+    [SerializeField] GameObject PointToCheck;
     [SerializeField] GameObject PointOutside;
 
     void OnGUI()
     {
-        Vector2 point = Point.transform.position;
+        Vector2 point = PointToCheck.transform.position;
 
         List<Vector2> polygon = new();
         for (int i = 0; i < Polygon.transform.childCount; i++)
